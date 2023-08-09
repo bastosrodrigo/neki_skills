@@ -1,0 +1,54 @@
+.container-login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #08070b;
+}
+
+.content-login {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 0;
+}
+
+.content-login form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+.content-login label {
+  display: grid;
+  gap: 5px;
+}
+
+.container-login input {
+  height: 30px;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.senha svg {
+  position: relative;
+  height: 30px;
+  width: 20px;
+  right: 25px;
+  z-index: 1;
+}
+
+button {
+  margin-top: 10px;
+  height: 30px;
+  cursor: pointer;
+}

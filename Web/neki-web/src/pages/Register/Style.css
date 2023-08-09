@@ -1,0 +1,78 @@
+.container-register {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #08070b;
+}
+
+.content-register {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 0;
+}
+
+.content-register form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+.content-register label {
+  display: grid;
+  margin-top: 10px;
+}
+
+.content-register input {
+  height: 30px;
+}
+
+.form h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form img {
+  width: 100px;
+}
+
+button {
+  margin-top: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+}
+
+.senha span {
+  position: absolute;
+  height: 30px;
+  cursor: pointer;
+}
+
+.senha svg {
+  position: relative;
+  height: 30px;
+  width: 20px;
+  right: 25px;
+  z-index: 1;
+}
+
+.senha input {
+  width: 250px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

@@ -1,0 +1,12 @@
+:root {
+  --cor-primaria: #08070b;
+  --cor-primaria-um: #08070e;
+  --cor-secundaria: #ccc;
+  --cor-branco: #fff;
+
+  --background-color-primaria: var(--cor-primaria);
+  --background-color-um: var(--cor-primaria-um);
+  --background-color-secundaria: var(--cor-secundaria);
+  --background-color-tabela: var(--cor-secundaria);
+  --color-text: var(--cor-secundaria);
+}

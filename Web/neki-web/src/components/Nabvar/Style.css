@@ -1,0 +1,45 @@
+@import url("../../Global.css");
+
+.content-navbar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color-um);
+  height: 80px;
+  width: 100%;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.logo h1 {
+  color: var(--color-text);
+}
+
+.content-navbar img {
+  width: 70px;
+}
+
+.content-navbar button {
+  margin: 0 50px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  margin-right: 1em;
+  color: #ccc;
+}
+
+.links li {
+  padding: .4em .6em;
+}
+
+.switch {
+  display: flex;
+}
